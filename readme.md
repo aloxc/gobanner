@@ -13,9 +13,8 @@
 # 使用方法：
 > 打开go_banner.go文件，修改文件中定义的GO_BANNER为你自己需要显示的banner，接下来保存
 > 在你的应用中使用如下代码在程序入口文件导入即可，如本例子中main那样
-```golang
+```
 	import _ "github.com/aloxc/goice/banner"
-
 ```
 **特别说明下，如果你是在ide中运行可能显示效果不如意，请切换到shell或者cmd中执行你的程序**
 
@@ -24,7 +23,7 @@
 可以通过[http://patorjk.com/software/taag/#p=display&f=Big&t=Banner](http://patorjk.com/software/taag/#p=display&f=Big&t=Banner)来制作你自己的banner
 
 可以在docker试验下
-```shell
+```
 docker pull aloxc/gobanner
 docker run --name gobanner aloxc/gobanner
 ```
