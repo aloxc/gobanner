@@ -22,3 +22,9 @@
 ![gobanner](assert/gobanner.png)
 
 可以通过[http://patorjk.com/software/taag/#p=display&f=Big&t=Banner](http://patorjk.com/software/taag/#p=display&f=Big&t=Banner)来制作你自己的banner
+
+可以在docker试验下
+```shell
+docker pull aloxc/gobanner
+docker run --name gobanner aloxc/gobanner
+```
