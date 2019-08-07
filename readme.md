@@ -14,7 +14,7 @@
 > 打开go_banner.go文件，修改文件中定义的GO_BANNER为你自己需要显示的banner，接下来保存
 > 在你的应用中使用如下代码在程序入口文件导入即可，如本例子中main那样
 ```
-	import _ "github.com/aloxc/goice/banner"
+	import _ "github.com/aloxc/gobanner"
 ```
 **特别说明下，如果你是在ide中运行可能显示效果不如意，请切换到shell或者cmd中执行你的程序**
 
